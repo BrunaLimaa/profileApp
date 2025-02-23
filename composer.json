@@ -1,4 +1,26 @@
 {
+    "name": "BrunaLimaa/profileApp",
+    "description": "Simple Profile application",
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "Bruna Rosa",
+        "email": "brunarblima93@gmail.com",
+        "role": "Developer"
+      }
+    ],
+    "config": {
+      "vendor-dir": "vendor"
+    },
+    "autoload": {
+      "psr-4": {
+        "Source\\": "source/"
+      },
+      "files": [
+        "source/Boot/Config.php",
+        "source/Boot/Helpers.php"
+      ]
+    },
     "require": {
         "coffeecode/router": "^2.0",
         "dompdf/dompdf": "^3.1",
