@@ -6,10 +6,16 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit2c3c67c5ad3b3226eea1644a1af02a1a
 {
+    public static $files = array (
+        'bf70ba5211a3370dfca59854e5b83395' => __DIR__ . '/../..' . '/source/Boot/Config.php',
+        '51f07a5557a50a13d41308885e4f3ef2' => __DIR__ . '/../..' . '/source/Boot/Helpers.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
             'Svg\\' => 4,
+            'Source\\' => 7,
             'Sabberworm\\CSS\\' => 15,
         ),
         'M' => 
@@ -39,6 +45,10 @@ class ComposerStaticInit2c3c67c5ad3b3226eea1644a1af02a1a
         'Svg\\' => 
         array (
             0 => __DIR__ . '/..' . '/dompdf/php-svg-lib/src/Svg',
+        ),
+        'Source\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/source',
         ),
         'Sabberworm\\CSS\\' => 
         array (

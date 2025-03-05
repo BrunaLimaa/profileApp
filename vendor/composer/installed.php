@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
+        'name' => 'brunalimaa/profile-app',
         'pretty_version' => 'dev-SDUAISHD',
         'version' => 'dev-SDUAISHD',
-        'reference' => '0f790c8fbf9f1fcda8806f233f47957bbbb3344d',
+        'reference' => '50bf6f6f7cc0e310d3df572f881afef74891b581',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
+        'brunalimaa/profile-app' => array(
             'pretty_version' => 'dev-SDUAISHD',
             'version' => 'dev-SDUAISHD',
-            'reference' => '0f790c8fbf9f1fcda8806f233f47957bbbb3344d',
+            'reference' => '50bf6f6f7cc0e310d3df572f881afef74891b581',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
